@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-  <test thread-count="5" name="Test">
+<suite name="Test_Suite">
+  <test thread-count="5" name="1_Test">
     <classes>
       <class name="com.pac.fortest.Selenium_Automation"/>
     </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+  </test> <!-- 1_Test -->
+</suite> <!-- Test_Suite -->

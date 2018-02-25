@@ -1,16 +1,17 @@
 package com.pac.fortest;
 
-import org.testng.annotations.Test;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.WebDriver;
 import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 //ttte
 public class Selenium_Automation {
 
 	@Test
-	public static void main(String[] args) {
+	public static void main() {
 		System.setProperty("webdriver.chrome.driver","chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		System.out.println("Hi, Welcome to Jenkins automated testing");
