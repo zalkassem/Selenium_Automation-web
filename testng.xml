@@ -4,6 +4,8 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.pac.fortest.Selenium_Automation"/>
+      <class name="com.test.TestA"/>
+      <class name="com.test.TestB"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
